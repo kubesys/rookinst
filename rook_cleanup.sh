@@ -18,3 +18,8 @@ done
 kubectl delete -f cluster/operator.yaml
 kubectl delete -f cluster/common.yaml
 kubectl delete -f cluster/crds.yaml
+# kubectl delete -f cluster/dashboard-exporter.yaml
+
+# kubectl delete -f object/object-bucket-claim-delete.yaml
+# kubectl delete -f object/storageclass-bucket-delete.yaml 
+# kubectl delete -f object/object.yaml
